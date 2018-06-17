@@ -52,4 +52,4 @@ localhost:4000/tests/SpecRunner.html
 	2. ``` sudo npm install -g n ```
 	3. ``` sudo n stable ```
 
-* Open a pull request.
+* Open a new issue or contact me directly.
