@@ -16,13 +16,12 @@ httpProxy.prototype.onError = function (err) {
     console.log(err);
 };
 
-
 var apiProxy = httpProxy.createProxyServer(proxyOptions);
 
 console.log("Forwarding API requests to " + apiURL);
 
 server.all("/tickets.json*", function(req, res) {
-    console.log("Request made!");
+    //console.log("Request made!");
     apiProxy.web(req, res, {target: apiURL});
 });
 
