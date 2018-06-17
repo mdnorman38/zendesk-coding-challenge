@@ -1,0 +1,51 @@
+.image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.image-container img {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.contact-container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+}
+
+.contact-container a {
+    display: inline !important;
+    padding: 0 20px !important;
+}
+
+.contact-container a:hover {
+    color: #02363D;
+    background-color: #FFFFFF !important;
+}
+
+.data-container {
+    margin-left: 300px;
+}
+
+.table-container {
+    padding: 0% 5% 2% 5%;
+}
+
+#display-errors {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.hide-details {
+    display: none;
+}
+
+td p {
+    margin: 0px;
+}
