@@ -1,16 +1,16 @@
 # Zendesk Coding Challenge Submission
 
-#### Background
+### Background
 
 I was originally going to build the ticket viewer application in Angular, but decided to build the app in regular JavaScript as I didn't want an overcomplicated solution.
 
 The problem with working in native JavaScript is Cross-Origin Requests. To bypass this, I created a proxy server using Node.js that basically takes requests that end in ```/tickets.json*``` and forwards them to the Zendesk API.
 
-####Prerequisites
+### Prerequisites
 
 * [Node JS](https://nodejs.org/en/download/) 
 
-#### Setup
+### Setup
 
 1. Clone the repository
 
@@ -36,16 +36,16 @@ npm install
 node server.js
 ```
 
-5. Navigate to localhost:4000 to access the ticket viewer
+5. Navigate to ```localhost:4000``` to access the ticket viewer
 
-#### Tests
+### Tests
 
 For this project, Jasmine was used as the unit testing framework. To run the tests, navigate to:
 ```
 localhost:4000/tests/SpecRunner.html
 ```
 
-####Troubleshooting 
+### Troubleshooting 
 
 * Upgrade NodeJS:
 	1. ``` sudo npm cache clean -f ```
